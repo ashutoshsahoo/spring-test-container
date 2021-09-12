@@ -1,0 +1,10 @@
+server:
+  friendlyName: Test Server
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+      default-schema: public
+  test:
+    database:
+      replace: none
